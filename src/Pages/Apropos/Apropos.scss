@@ -1,0 +1,19 @@
+@import '../../App.scss';
+
+.apropos {
+    width: $content-large-width;
+    margin: $margin-base;
+    
+}
+
+@media (max-width: $medium-screen) {
+    .apropos {
+        width: $content-large-width;
+    }
+}
+
+@media (max-width: $small-screen) {
+    .apropos {
+        width: $content-large-width;
+    }
+}

@@ -82,16 +82,12 @@ const Logement = () => {
             <Collapse
               className={`Collapse-description ${isDescriptionOpen ? "open" : ""}`}
               title="Description"
-              isOpen={isDescriptionOpen}
-              onToggle={toggleDescription}
             >
               <p>{logementData.description}</p>
             </Collapse>
             <Collapse
               className={`Collapse-equipement ${isEquipementOpen ? "open" : ""}`}
               title="Équipements"
-              isOpen={isEquipementOpen}
-              onToggle={toggleEquipement}
             >
               <ul>
                 {logementData.equipments.map((equipment, index) => (
